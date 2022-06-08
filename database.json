@@ -1,0 +1,242 @@
+{
+  "users": {
+    "data": [
+      {
+        "id": 1,
+        "email": "daiany.dm@gmail.com",
+        "password": "123",
+        "name": "Daiany Santos",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesgOzZSAz72MGG25Th8F0ij0S3fZpqB96ifltAY-hh8wdkoIZzBQun2B27n752aWTI_Q&usqp=CAU",
+        "role": [
+          "Suporte"
+        ]
+      },
+      {
+        "id": 2,
+        "email": "adm2@igd.com",
+        "password": "123456",
+        "name": "Jessica ",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
+        "role": [
+          "Developer"
+        ]
+      },
+      {
+        "id": 3,
+        "email": "adm@igd.com",
+        "password": "123456",
+        "name": "Thiago Demas",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/219/219986.png",
+        "role": [
+          "Administrador"
+        ]
+      },
+      {
+        "id": 4,
+        "email": "ti@igd.com",
+        "password": "123456",
+        "name": "Pedrinho",
+        "avatar": "https://vaptmed.com.br/wp-content/uploads/2021/08/62681-flat-icons-face-computer-design-avatar-icon.png",
+        "role": [
+          "Analista"
+        ]
+      },
+      {
+        "id": 5,
+        "email": "ti1@igd.com",
+        "password": "123456",
+        "name": "Luis",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxmZWmQVnve0WBKmeEFF54IoTfs17lDNwOQLdws8xRscuKga4Hw-9C-LM-AzJVgYEe4Fs&usqp=CAU",
+        "role": [
+          "Developer"
+        ]
+      },
+      {
+        "id": 6,
+        "email": "ti2@igd.com",
+        "password": "123456",
+        "name": "Anne Lopes",
+        "avatar": "https://cdn-icons-png.flaticon.com/512/194/194935.png",
+        "role": [
+          "Developer"
+        ]
+      },
+      {
+        "id": 7,
+        "email": "admTeste@gmail.com",
+        "role": [
+          "Developer"
+        ],
+        "password": "123",
+        "name": "Victor",
+        "avatar": "https://cdn.iconscout.com/icon/free/png-256/teacher-240-1128987.png"
+      }
+    ],
+    "payload": {
+      "pagination": {
+        "page": 1,
+        "first_page_url": "http://localhost:8000/api/v1/users?page=1",
+        "from": 1,
+        "last_page": 3,
+        "links": [
+          {
+            "href": "/?page=1",
+            "rel": "self"
+          },
+          {
+            "href": "/?page=2",
+            "rel": "next"
+          },
+          {
+            "href": "/?page=3",
+            "rel": "last"
+          }
+        ],
+        "prev_page_url": null,
+        "to": 3,
+        "total": 7
+      }
+    }
+  },
+  "roles": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Administrador",
+        "description": "Administrador",
+        "permissions": [
+          {
+            "id": 1,
+            "name": "Todos os controles administrativos"
+          },
+          {
+            "id": 2,
+            "name": "Visualização e edição de informações financeiras"
+          },
+          {
+            "id": 3,
+            "name": "Criação de usuários"
+          },
+          {
+            "id": 4,
+            "name": "Visualização de pagamentos"
+          },
+          {
+            "id": 5,
+            "name": "Edicação de ofertas"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tecnologia",
+        "description": "Tecnologia",
+        "permissions": [
+          {
+            "name": "Visualização de informações financeiras"
+          },
+          {
+            "name": "Criação de usuários"
+          },
+          {
+            "name": "Visualização de pagamentos"
+          },
+          {
+            "name": "Edicação de ofertas"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Suporte",
+        "description": "Tecnologia",
+        "permissions": [
+          {
+            "name": "Visualização de informações financeiras"
+          },
+          {
+            "name": "Edicação de ofertas"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Analista",
+        "description": "Tecnologia",
+        "permissions": [
+          {
+            "name": "Visualização de informações financeiras"
+          },
+          {
+            "name": "Criação de usuários"
+          },
+          {
+            "name": "Visualização de pagamentos"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": [
+    {
+      "id": 1,
+      "name": "Listar Usuários",
+      "description": "Listar Usuários"
+    },
+    {
+      "id": 2,
+      "name": "Cadastrar Usuários",
+      "description": "Cadastrar Usuários"
+    },
+    {
+      "id": 3,
+      "name": "Editar Usuários",
+      "description": "Editar Usuários"
+    },
+    {
+      "id": 4,
+      "name": "Deletar Usuários",
+      "description": "Deletar Usuários"
+    },
+    {
+      "id": 5,
+      "name": "Listar Roles",
+      "description": "Listar Roles"
+    },
+    {
+      "id": 6,
+      "name": "Cadastrar Roles",
+      "description": "Cadastrar Roles"
+    },
+    {
+      "id": 7,
+      "name": "Editar Roles",
+      "description": "Editar Roles"
+    },
+    {
+      "id": 8,
+      "name": "Deletar Roles",
+      "description": "Deletar Roles"
+    },
+    {
+      "id": 9,
+      "name": "Listar Permissions",
+      "description": "Listar Permissions"
+    },
+    {
+      "id": 10,
+      "name": "Cadastrar Permissions",
+      "description": "Cadastrar Permissions"
+    },
+    {
+      "id": 11,
+      "name": "Editar Permissions",
+      "description": "Editar Permissions"
+    },
+    {
+      "id": 12,
+      "name": "Deletar Permissions",
+      "description": "Deletar Permissions"
+    }
+  ]
+}
